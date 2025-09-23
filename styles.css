@@ -1,0 +1,27 @@
+* {
+    /* outline: auto;  */
+    background-color: rgb(192, 192, 192);
+    font-family: monospace;
+}
+
+
+.title {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    width: 500px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightcoral;
+}
+
+.buffer {
+    background-color: aqua;
+}
+
+.title.text {
+    /* border: 5px solid; */
+    border-color: red;
+}
