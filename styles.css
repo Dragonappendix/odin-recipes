@@ -42,3 +42,8 @@
     text-align: center;
 }
 
+.recipeimage {
+    outline: 2px solid black;
+    padding: 5px;
+}
+
