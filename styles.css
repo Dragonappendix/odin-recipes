@@ -9,12 +9,14 @@
     display: flex;
     font-size: 60px;
     justify-content: center;
-    width: 400px;
     border-radius: 100px / 50px;
     margin-top: 1px;
     margin-bottom: 1px;
     margin: 0 auto;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .buffer {
@@ -27,3 +29,16 @@
     color: white;
     background-color: black;
 }
+
+.homelink {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 40px;
+    /* border-radius: 100px / 50px; */
+}
+
+.imagecontainer {
+    text-align: center;
+}
+
