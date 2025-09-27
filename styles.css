@@ -1,12 +1,61 @@
 * {
-    /* outline: auto;  */
-    background-color: #ffffff;
+    background-color: #ede8d0;
     font-family: monospace;
 }
 
+.homelink {
+    display: flex;
+    justify-content: center;
+    margin: -5px auto 5px;
+    width: 40px;
+    font-size: 15px;
+}
+
+.imagecontainer {
+    text-align:center;
+}
+
+
+.titlecontainer {
+    width: 50%;
+    margin: 20px auto;
+}
 
 .title {
-    display: flex;
+    border-radius: 100px/50px;
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+    margin: 5px auto 5px;
+    border: solid black 2px;
+    font-size: 60px;
+}
+
+.title.pagetitle {
+    background-color: black;
+    color: #ede8d0;
+}
+
+.sectiontitle {
+    width: 35%;
+    font-size: 30px;
+}
+
+.subsectiontitle {
+    width: 25%;
+    font-size: 20px;
+}
+
+.bodytext {
+    width: 40%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 30px;
+}
+
+
+/* 
+.titlecontainer {
     font-size: 70px;
     justify-content: center;
     border-radius: 100px / 50px;
@@ -19,9 +68,6 @@
     padding-right: 30px;
 }
 
-.buffer {
-    background-color: aqua;
-}
 
 .title.text {
     color: white;
@@ -35,26 +81,29 @@
     width: 40px;
     font-size: 15px;
     /* border-radius: 100px / 50px; */
-}
+/* }
 
 .imagecontainer {
     text-align: center;
 }
 
+
+*/
 .recipeimage {
     outline: 2px solid black;
     padding: 5px;
 }
 
-.title.sectiontitle {
+/*
+
+div.title.sectiontitle {
     margin: 20px 10px 10px;
 }
 
 .title.sectiontitle.text {
     color: black;
     font-size: 40px;
-    border: solid black 4px;
-    background-color: white;
+    background-color: transparent;
 }
 
 .description{
@@ -66,4 +115,4 @@
 .bodytext {
     margin: 10px;   
     font-size: 20px;
-}
+} */ 
