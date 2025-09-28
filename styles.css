@@ -42,8 +42,11 @@
 }
 
 .subsectiontitle {
-    width: 25%;
+    width: 100%;
     font-size: 20px;
+    margin: 25px auto 15px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .textbox.bodytext {
@@ -53,66 +56,8 @@
     padding: 30px;
 }
 
-
-/* 
-.titlecontainer {
-    font-size: 70px;
-    justify-content: center;
-    border-radius: 100px / 50px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
-.title.text {
-    color: white;
-    background-color: black;
-}
-
-.homelink {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 40px;
-    font-size: 15px;
-    /* border-radius: 100px / 50px; */
-/* }
-
-.imagecontainer {
-    text-align: center;
-}
-
-
-*/
 .recipeimage {
     outline: 2px solid black;
     padding: 5px;
 }
 
-/*
-
-div.title.sectiontitle {
-    margin: 20px 10px 10px;
-}
-
-.title.sectiontitle.text {
-    color: black;
-    font-size: 40px;
-    background-color: transparent;
-}
-
-.description{
-    border: 2px grey solid;
-    width: 600px;
-    margin: auto;
-}
-
-.bodytext {
-    margin: 10px;   
-    font-size: 20px;
-} */ 
