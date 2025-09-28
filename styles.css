@@ -46,7 +46,7 @@
     font-size: 20px;
 }
 
-.bodytext {
+.textbox.bodytext {
     width: 40%;
     margin: auto;
     border: 1px solid grey;
