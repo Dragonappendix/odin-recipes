@@ -44,16 +44,15 @@
 .subsectiontitle {
     width: 100%;
     font-size: 20px;
-    margin: 25px auto 15px;
+    margin: 5px auto 5px;
     text-align: center;
     text-decoration: underline;
 }
 
 .textbox.bodytext {
-    width: 40%;
-    margin: auto;
-    border: 1px solid grey;
-    padding: 30px;
+    width: 30%;
+    margin: 0px auto 50px;
+    /* border: 1px solid grey; */
 }
 
 .recipeimage {
